@@ -7,12 +7,12 @@ User Interface (UI): The GUI will be designed using the PyQt6 framework and will
 
 User Stories: The system includes several user stories that must be implemented in the GUI:
 
-Log in / Log out
-Search patient
+Log in / Log out,
+Search patient,
 Create, update, delete, and list patients in a QTableView widget
-Choose current patient
+Choose current patient,
 Create, update, delete, and list notes in a QPlainTextEdit widget
-Retrieve patient and note records in their respective widgets
+Retrieve patient and note records in their respective widgets,
 Data Management: The system maintains patient records and associated notes, and provides functionalities to manipulate and retrieve these records, all while ensuring data consistency.
 
 MVC Design: The GUI serves as the "view" in the MVC pattern, while the controller interacts with the model, handling user inputs and updating the view accordingly.
